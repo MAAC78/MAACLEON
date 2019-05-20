@@ -1,0 +1,27 @@
+DIFERENCIAS ENTRE SQL Y NO-SQL
+
+NoSQL vs SQL; cuándo utilizar qué tipo de base de datos
+
+Cuando los datos deben ser consistentes sin dar posibilidad al error utilizar una base de datos relacional, SQL.
+
+Cuando nuestro presupuesto no se puede permitir grandes máquinas y debe destinarse a máquinas de menor rendimiento, NoSQL.
+
+Cuando las estructuras de datos que manejamos son variables, NoSQL.
+
+Análisis de grandes cantidades de datos en modo lectura, NoSQL.
+
+Captura y procesado de eventos, NoSQL.
+
+Tiendas online con motores de inteligencia complejos, NoSQL.
+
+
+Razones principales para considerar PaaS
+
+Opera completamente dentro de la nube. PaaS proporciona a los desarrolladores un entorno para desarrollar e implementar aplicaciones completamente dentro de la nube. Esto incluye aplicaciones empresariales complejas que su empresa puede necesitar para resolver problemas comerciales y aplicaciones simples basadas en la nube.
+
+El escalado es fácil . Usted puede pagar cuando se va. Los proveedores de servicios le permiten aprovechar las herramientas de desarrollo avanzadas a medida que las necesita, dándole más valor a un precio asequible.
+
+Su línea de fondo aumenta. Ya no necesita comprar licencias de software, infraestructura de aplicaciones o herramientas de desarrollo. Finalmente, su equipo de desarrollo puede tener la oportunidad de centrarse en la administración de las aplicaciones y los servicios que crean, mientras que el proveedor de servicios en la nube administra el resto.
+
+Disminuir el tiempo de codificación. Las herramientas de desarrollo que PaaS puede proporcionar incluyen algunos componentes de aplicación precodificados (es decir, funciones de seguridad, servicios de directorio, flujo de trabajo, etc.) integrados en la plataforma. Esto reduce la cantidad de tiempo que necesitan los desarrolladores para codificar nuevas aplicaciones.
+
