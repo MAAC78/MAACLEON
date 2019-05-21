@@ -1,0 +1,20 @@
+LINEAR CONGRUENTIAL GENERATOR
+
+Un generador lineal congruencial (GLC) es un algoritmo que permite obtener una secuencia de números pseudoaleatorios calculados con una función lineal definida a trozos discontinua. Es uno de los métodos más antiguos y conocidos para la generación de números pseudoaleatorios. La teoría que sustenta el proceso es relativamente fácil de entender, el algoritmo en si es de fácil implementación y su ejecución es rápida, especialmente cuando el hardware del ordenador puede soportar aritmética modular al truncar el bit de almacenamiento correspondiente.
+
+El generador está definido por la relación de recurrencia:
+
+{\displaystyle X_{n+1}=\left(aX_{n}+c\right)~~{\bmod {~}}~m} {\displaystyle X_{n+1}=\left(aX_{n}+c\right)~~{\bmod {~}}~m}
+donde {\displaystyle X} X es la secuencia de valores pseudoaleatorios, y
+
+{\displaystyle m,\,0<m} {\displaystyle m,\,0<m} es el "módulo"
+{\displaystyle a,\,0<a<m} {\displaystyle a,\,0<a<m} es el "multiplicador"
+{\displaystyle c,\,0\leq c<m} {\displaystyle c,\,0\leq c<m} es el "incremento"
+{\displaystyle X_{0},\,0\leq X_{0}<m} {\displaystyle X_{0},\,0\leq X_{0}<m} es la "semilla" or "valor inicial"
+
+todos los cuales son constantes enteras específicas para el generador. Si c = 0, el generador es llamado frecuentemente un generador congruencial multiplicativo (GCM), o generador de números pseudoaleatorios de Lehmer. Si c ? 0, el método es llamado un generador congruencial mezclado.
+
+
+para mi
+
+linear congruential generator es un algoritmo para generar numeros aleatoriamente 

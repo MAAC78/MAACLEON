@@ -1,0 +1,7 @@
+TIPOS DE ALGORITMOS
+
+BINARY SEARCH (ALGORITMO DE BUSQUEDA BINARIA)
+En informática , la búsqueda binaria , también conocida como búsqueda de medio intervalo ,  búsqueda logarítmica ,  o corte binario , es un algoritmo de búsqueda que encuentra la posición de un valor objetivo dentro de una matriz ordenada . La búsqueda binaria compara el valor objetivo con el elemento central de la matriz. Si no son iguales, la mitad en la que el objetivo no puede mentir se elimina y la búsqueda continúa en la mitad restante, tomando nuevamente el elemento central para comparar con el valor objetivo, y repitiendo esto hasta que se encuentre el valor objetivo. Si la búsqueda termina con la mitad restante vacía, el objetivo no está en la matriz. Aunque la idea es simple, implementar la búsqueda binaria correctamente requiere atención a algunas sutilezas sobre sus condiciones de salida y el cálculo del punto medio, especialmente si los valores en la matriz no son todos los números enteros en el rango.
+
+para mi
+Este algoritmo lo que hace es buscar un valor determinado que uno elija en la ejecucion del algoritmo

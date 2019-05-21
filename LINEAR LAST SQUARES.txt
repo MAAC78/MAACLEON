@@ -1,0 +1,28 @@
+LINEAR LAST SQUARES
+
+Mínimos cuadrados lineales ( LLS ) es la aproximación de mínimos cuadrados de las funciones lineales a los datos. Es un conjunto de formulaciones para resolver los problemas estadísticos involucrados en la regresión lineal , que incluyen variantes para residuos ordinarios (no ponderados) , ponderados y generalizados (correlacionados) . Los métodos numéricos para los mínimos cuadrados lineales incluyen la inversión de la matriz de las ecuaciones normales y los métodos de descomposición ortogonal.
+
+Principales formulaciones
+
+Las tres formulaciones principales de mínimos cuadrados lineales son:
+
+Los mínimos cuadrados ordinarios (OLS) es el estimador más común. Las estimaciones de MCO se usan comúnmente para analizardatos experimentales y observacionales .
+El método OLS minimiza la suma de los residuos al cuadrado y conduce a una expresión de forma cerrada para el valor estimado del vector de parámetro desconocido ß :
+
+{\ displaystyle {\ hat {\ boldsymbol {\ beta}}} = (\ mathbf {X} ^ {\ mathsf {T}} \ mathbf {X}) ^ {- 1} \ mathbf {X} ^ {\ mathsf {T}} \ mathbf {y},} {\ displaystyle {\ hat {\ boldsymbol {\ beta}}} = (\ mathbf {X} ^ {\ mathsf {T}} \ mathbf {X}) ^ {- 1} \ mathbf {X} ^ {\ mathsf {T}} \ mathbf {y},}
+dónde {\ displaystyle \ mathbf {y}} \ mathbf {y} es un vector cuyo elemento i th es la observación i th de la variable dependiente , y {\ displaystyle \ mathbf {X}} \ mathbf {X} es una matriz cuyo elemento ij es la observación i th de la j ª variable independiente . El estimador es imparcial y consistente si los errores tienen una variación finita y no están correlacionados con los regresores:
+
+{\ displaystyle \ operatorname {E} [\, \ mathbf {x} _ {i} \ varepsilon _ {i} \,] = 0,} {\ displaystyle \ operatorname {E} [\, \ mathbf {x} _ {i} \ varepsilon _ {i} \,] = 0,}
+dónde {\ displaystyle \ mathbf {x} _ {i}} \ mathbf {x} _ {i}Es la transposición de la fila i de la matriz. {\ displaystyle \ mathbf {X}.} {\ displaystyle \ mathbf {X}.}También es eficiente bajo el supuesto de que los errores tienen una variación finita y son homocedásticos , lo que significa que E [ e i 2 | x i ] no depende de i . La condición de que los errores están correlacionados con los regresores generalmente será satisfecho en un experimento, pero en el caso de datos de observación, es difícil excluir la posibilidad de una covariable omitido z que se relaciona tanto a las covariables observadas y la variable de respuesta . La existencia de tal covariable generalmente conducirá a una correlación entre los regresores y la variable de respuesta, y por lo tanto a un estimador inconsistente de ß. La condición de la homoscedasticidad puede fallar con datos experimentales o de observación. Si el objetivo es la inferencia o el modelo predictivo, el rendimiento de las estimaciones de OLS puede ser deficiente si existe multicolinealidad , a menos que el tamaño de la muestra sea grande.
+Los mínimos cuadrados ponderados (WLS) se utilizan cuando hay heterocedasticidad en los términos de error del modelo.
+Los mínimos cuadrados generalizados (GLS) son una extensión del método OLS, que permite una estimación eficiente de ß cuando hay heterocedasticidad , o correlaciones, o ambas están presentes entre los términos de error del modelo, siempre que se conozca la forma de heteroscedasticidad y correlación. independientemente de los datos. Para manejar la heteroscedasticidad cuando los términos de error no están correlacionados entre sí, GLS minimiza un análogo ponderado a la suma de los residuos al cuadrado de la regresión OLS, donde el peso para elcaso i th es inversamente proporcional a var ( e i ). Este caso especial de GLS se denomina "mínimos cuadrados ponderados". La solución GLS al problema de estimación es
+{\ displaystyle {\ hat {\ boldsymbol {\ beta}}} = (\ mathbf {X} ^ {\ mathsf {T}} {\ boldsymbol {\ Omega}} ^ {- 1} \ mathbf {X}) ^ {-1} \ mathbf {X} ^ {\ mathsf {T}} {\ boldsymbol {\ Omega}} ^ {- 1} \ mathbf {y},} {\ displaystyle {\ hat {\ boldsymbol {\ beta}}} = (\ mathbf {X} ^ {\ mathsf {T}} {\ boldsymbol {\ Omega}} ^ {- 1} \ mathbf {X}) ^ {-1} \ mathbf {X} ^ {\ mathsf {T}} {\ boldsymbol {\ Omega}} ^ {- 1} \ mathbf {y},}
+donde O es la matriz de covarianza de los errores. Se puede ver que GLS aplica una transformación lineal a los datos para que se cumplan los supuestos de OLS para los datos transformados. Para que se aplique GLS, la estructura de covarianza de los errores debe ser conocida hasta una constante multiplicativa.
+
+
+
+
+
+para mi
+
+LINEAR LAST SQUARES es para obtener suma de vectores

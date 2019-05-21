@@ -1,0 +1,18 @@
+Backtracking 
+
+Backtracking es un algoritmo general para encontrar todas (o algunas) soluciones a algunos problemas de cómputo , especialmente los problemas de satisfacción restringida , que incrementan los candidatos a las soluciones y abandonan a un candidato ("backtracks") tan pronto como determina que el candidato no puede Se completará a una solución válida.
+
+El ejemplo clásico del libro de texto sobre el uso del retroceso es el rompecabezas de las ocho reinas , que solicita todos los arreglos de ocho reinas de ajedrez en un tablero de ajedrez estándar para que ninguna reina ataque a ninguna otra. En el enfoque de retroceso común, los candidatos parciales son arreglos de k reinas en las primeras k filas del tablero, todas en diferentes filas y columnas. Cualquier solución parcial que contenga dos reinas mutuamente atacantes puede ser abandonada.
+
+El retroceso solo se puede aplicar a problemas que admiten el concepto de una "solución candidata parcial" y una prueba relativamente rápida de si es posible completar una solución válida. Es inútil, por ejemplo, para ubicar un valor dado en una tabla desordenada. Sin embargo, cuando es aplicable, el retroceso es a menudo mucho más rápido que la enumeración de fuerza bruta de todos los candidatos completos, ya que puede eliminar una gran cantidad de candidatos con una sola prueba.
+
+Retroceder es una herramienta importante para resolver problemas de satisfacción de restricciones , como crucigramas , aritmética verbal , Sudoku y muchos otros rompecabezas. A menudo es la técnica más conveniente para el análisis , para el problema de la mochila y otros problemas de optimización combinatoria . También es la base de los denominados lenguajes de programación lógica como Icon , Planner y Prolog .
+
+El retroceso depende de los " procedimientos de caja negra " dados por el usuario que definen el problema a resolver, la naturaleza de los candidatos parciales y la forma en que se extienden a candidatos completos. Por lo tanto, es un algoritmo metaheurístico en lugar de un algoritmo específico, aunque, a diferencia de muchos otros meta-heurísticos, está garantizado para encontrar todas las soluciones a un problema finito en una cantidad limitada de tiempo.
+
+El término "backtrack" fue acuñado por el matemático estadounidense DH Lehmer en los años cincuenta. El lenguaje pionero de procesamiento de cadenas SNOBOL (1962) puede haber sido el primero en proporcionar una función de retroceso general incorporada.
+
+
+para mi
+
+backtracking es regresar para encontrar una solucion a lo programado
